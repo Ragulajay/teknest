@@ -119,7 +119,7 @@ const projects = [
 export default function Portfolio() {
   const [filter, setFilter] = useState<"All" | "Software" | "Hardware" | "IoT">("All");
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 9;
+  const projectsPerPage = 6;
 
   const filteredProjects = filter === "All"
     ? projects
